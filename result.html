@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你的测试结果 - 洛克王国性格测试</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="result-screen">
+    <div class="result-container">
+      <h1 class="result-title">你的测试结果</h1>
+
+      <div class="result-card">
+        <div class="spirit-icon-container">
+          <img id="result-icon" class="spirit-icon" src="" alt="">
+        </div>
+
+        <div class="result-info">
+          <p class="result-label">你在洛克王国里的本命精灵是：</p>
+          <h2 id="pet-name" class="pet-name"></h2>
+
+          <p class="result-label">性格：</p>
+          <h3 id="personality-name" class="personality-name"></h3>
+
+          <p id="personality-stats" class="personality-stats"></p>
+
+          <div class="description-box">
+            <p id="personality-description" class="personality-description"></p>
+            <p id="personality-traits" class="personality-traits"></p>
+          </div>
+        </div>
+      </div>
+
+      <button onclick="retakeQuiz()" class="retake-btn">重新测试</button>
+    </div>
+  </div>
+
+  <script src="js/personalities.js"></script>
+  <script src="js/result.js"></script>
+</body>
+</html>

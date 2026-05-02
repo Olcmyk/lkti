@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测测你在洛克王国里是哪只精灵</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 欢迎屏幕 -->
+  <div id="welcome-screen" class="welcome-screen">
+    <div class="welcome-content">
+      <h1 class="title">测测你在洛克王国里是哪只精灵</h1>
+      <p class="subtitle">回答48道题，发现你的本命精灵和性格</p>
+      <button id="start-btn" class="start-btn">开始测试</button>
+    </div>
+  </div>
+
+  <!-- 测试屏幕 -->
+  <div id="quiz-screen" class="quiz-screen" style="display: none;">
+    <div class="quiz-container">
+      <!-- 进度条 -->
+      <div class="progress-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+      <p id="question-number" class="question-number">第 1 / 48 题</p>
+
+      <!-- 题目卡片 -->
+      <div class="question-card">
+        <h2 id="question-text" class="question-text"></h2>
+        <div id="options-container" class="options-container"></div>
+      </div>
+
+      <!-- 导航按钮 -->
+      <div class="nav-buttons">
+        <button id="prev-btn" class="nav-btn">上一题</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/personalities.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
