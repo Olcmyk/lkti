@@ -4,7 +4,7 @@
 
 - 通过48道题目，测试出你的洛克王国本名精灵是什么。
 
-🔗 **在线体验**: [https://lkti-gilt.vercel.app](https://lkti-gilt.vercel.app)
+🔗 **在线体验**: [开始测试](https://lkti-gilt.vercel.app)
 <img width="815" height="624" alt="图片" src="https://github.com/user-attachments/assets/8eb496dd-6ae9-4956-ad32-92a8f027bc9f" />
 
 <img width="911" height="771" alt="图片" src="https://github.com/user-attachments/assets/57d2d808-ba2a-4c1e-82ec-7785bd325535" />
